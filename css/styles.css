@@ -1,6 +1,14 @@
+.header {
+  background-image: url(../images/backgrounds/landing.jpg);
+  padding: 80px;
+  margin: 0px;
+  border-width: 0px;
+}
+
 h1 {
   text-align: center;
   font-weight: lighter;
+  color: white;
   }
 
 .header2 {
@@ -8,9 +16,24 @@ h1 {
 }
 
 .fastfood {
-  float: right;
+  float: left;
 }
 
 .drinks {
-  float: left;
+  float: right;
+}
+
+.footer2 {
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  padding: 180px;
+}
+
+.contact {
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  padding: 90px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #F15A29;
 }
