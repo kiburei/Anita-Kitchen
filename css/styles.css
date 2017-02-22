@@ -1,26 +1,87 @@
 .header {
   background-image: url(../images/backgrounds/landing.jpg);
-  padding: 80px;
-  margin: 0px;
-  border-width: 0px;
-}
+  image-resolution: from-image;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px;
+  }
 
 h1 {
   text-align: center;
+  font-size: 50px;
   font-weight: lighter;
   color: white;
   }
+
+#slogan {
+    font-family: cursive;
+  }
+
+.image
+
+.foodtop {
+  font-style: italic;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+
+}
+
+
+.content {
+  margin: 150px;
+}
+
+#content-1 {
+  column-count: 2;
+}
+
+#content-2 {
+  column-count: 2;
+}
 
 .header2 {
   font-style: italic;
 }
 
+.row {
+  font-family: fantasy;
+}
+
+.col-md-3 {
+  font-size: 40px;
+  padding-left: 0px;
+}
+
+.happy {
+  text-align: center;
+  height: 105px;
+  background-color: #d4d6d8;
+  padding: 20px;
+
+}
+
+.party {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  height: 105px;
+  background-color: #F15A29;
+}
+
 .fastfood {
   float: left;
+  padding: 22px;
+  margin: 32px;
+  border-style: double;
 }
 
 .drinks {
   float: right;
+  padding: 22px;
+  margin: 32px;
+  border-style: double;
 }
 
 .footer2 {
@@ -36,4 +97,6 @@ h1 {
 
 .footer {
   background-color: #F15A29;
+  color: white;
+  text-align: center;
 }
