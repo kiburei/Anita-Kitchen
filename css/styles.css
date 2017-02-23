@@ -38,6 +38,7 @@ h1 {
   width: 410px;
   height: 210px;
 
+
 }#dinner {
   font-style: italic;
   font-weight: lighter;
@@ -172,4 +173,16 @@ div.tab a:focus, .active {
 
  #footer-menu {
    font-size: 35px;
+ }
+
+ .feedback {
+   margin: 100px;
+   box-shadow: 0px 2px 9px 1px;
+   column-count: 2;
+   text-align: center;
+   column-rule:  1px outset #ccc;
+ }
+
+ h4 {
+   color: #F15A29;
  }
