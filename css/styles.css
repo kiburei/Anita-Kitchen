@@ -163,6 +163,12 @@ div.tab a:focus, .active {
     background-color: #ccc;
 }
 
+.info {
+  background-color: white;
+  border-color: #F15A29;
+  color: #F15A29;
+}
+
 /* Style the tab content */
 .tabcontent {
     display: none;
