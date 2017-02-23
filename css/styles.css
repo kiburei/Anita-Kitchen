@@ -51,12 +51,16 @@ h1 {
 }
 
 .content {
-  margin: 180px;
-}
+  margin: 50px;
+
+  }
 
 #content-1 {
-  column-count: 2;
-  }
+  column-count: 1;
+}
+
+#description {
+}
 
 #content-2 {
   column-count: 2;
@@ -95,19 +99,23 @@ h1 {
   float: left;
   padding: 12px;
   margin: 20px;
-  box-shadow: 5px 5px 25px 5px;
+  box-shadow: 1px 1px 10px 2px;
+  /*height: 380px;*/
+
 }
 
 .drinks {
   float: right;
   padding: 12px;
   margin: 20px;
-  box-shadow: 5px 5px 25px 5px;;
+  box-shadow: 1px 1px 10px 2px;
+  /*height: 400px;*/
 }
 
 .footer2 {
   background-image: url(../images/backgrounds/foodsBg.jpg);
-  padding: 180px;
+  padding: 18px;
+  color: white
 }
 
 .contact {
@@ -128,6 +136,39 @@ h1 {
    column-span: all;
    columns: 2;
  }
+
+ div.tab {
+   overflow: hidden;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+ }
+
+ div.tab a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
 
  #footer-menu {
    font-size: 35px;

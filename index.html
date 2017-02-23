@@ -1,4 +1,4 @@
-h<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
@@ -45,14 +45,15 @@ h<!DOCTYPE html>
         <div class="content">
           <div id="content-1">
             <div class="fastfood">
-              <img src="images/fastFood1.jpg" alt=""></br>
-              <img src="images/fastFood2.jpg" alt="">
+              <img src="images/fastFood1.jpg" alt="" width="250"></br>
+              <img src="images/fastFood2.jpg" alt="" width="250">
 
             </div>
-        <div class="">
+        <div id="description">
           <h2>Fast Food</h2>
           <h3>You'll love our delicious fast food</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <button type="button" name="button">View Gallery</button>
 
 
         </div>
@@ -69,8 +70,8 @@ h<!DOCTYPE html>
           </div>
 
           <div class="drinks">
-          <img src="images/drink1.jpg" alt="">
-          <img src="images/drink2.jpg" alt="">
+          <img src="images/drink1.jpg" alt="" height="210">
+          <img src="images/drink2.jpg" alt="" height="210">
 
         </div>
 
@@ -78,18 +79,20 @@ h<!DOCTYPE html>
         </div>
         </div>
 
-    <div class="footer2">
-      <ul>
-        <li>
-          <h3>Fast Food</h3>
-            Chicken Burger <img src="images/fastfood/chickenBurger.jpg" alt="">
-            Beef Burger <img src="images/fastfood/beefBurger.jpg" alt="">
-            Chicken Pizza <img src="images/fastfood/chickenPizza.jpg" alt="">
-        </li>
-        <li>Drinks</li>
-        <li>Chicken</li>
-        <li>Rice</li>
-      </ul>
+    <div class="tab">
+      <a href="javascript:void(0)" class="tablinks" onclick="openFastfood(event, 'fastFood')"></a>
+      <a href="javascript:void(0)" class="tablinks" onclick="openDrinks(even, 'drinks')"></a>
+
+    </div>
+    <div id="fastFood" class="tabcontent">
+      <h3>Fast Food</h3>
+      <p>this is fast food</p>
+
+
+    </div>
+    <div id="drinks" class="tabcontent">
+      <h3>Drinks</h3>
+      <p>this is Drinks</p>
 
 
     </div>
@@ -102,8 +105,11 @@ h<!DOCTYPE html>
 
     <div class="contact">
       <h3>Get our daily food items delivered to your mail</h3>
-      <input class="form" type="text" name="" value="">
-      <button class="btn" type="" name="button">Subscribe</button>
+      <form class="form-inline" action="index.html" method="post">
+         <input class="form-control" type="text" name="" value="" placeholder="Enter Your Email">
+        <button class="btn" type="" name="button">Subscribe</button>
+
+      </form>
 
     </div>
 
