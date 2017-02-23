@@ -125,7 +125,8 @@ h1 {
 }
  .btn {
    background-color: #F15A29;
-   padding-right: 100px;
+   column-span: all;
+   columns: 2;
  }
 
  #footer-menu {
